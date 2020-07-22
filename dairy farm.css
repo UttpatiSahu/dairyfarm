@@ -1,0 +1,573 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-image: url('milk.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+main{
+    padding-top: auto;
+    padding-bottom: auto;
+}
+header{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    box-shadow: 0px 1px 4px grey;
+}
+#share{
+    position: relative;
+    top: 18px;
+    padding-right: 25px;
+    font-size: 18px;
+    float: right;
+}
+#shop{
+    position: relative;
+    top: 18px;
+    padding-right: 15px;
+    font-size: 18px;
+    float: right;
+}
+#contact{
+    position: relative;
+    top: 18px;
+    padding-right: 15px;
+    font-size: 18px;
+    float: right;
+}
+#why{
+    position: relative;
+    top: 18px;
+    padding-right: 15px;
+    font-size: 18px;
+    float: right;
+}
+#product{
+    position: relative;
+    top: 18px;
+    padding-right: 15px;
+    font-size: 18px;
+    float: right;
+}
+#home{
+    position: relative;
+    top: 18px;
+    padding-right: 15px;
+    font-size: 18px;
+    float: right;
+}
+#text{
+    padding-top: 250px;
+    text-align: center;
+}
+#text1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-align: justify;
+    padding-left: 27%;
+}
+#number{ 
+    background-color: rgb(53, 150, 206);
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 40vh;
+    height: 100vh;
+    background-image: url('cow\ head.png');
+    background-size: cover;
+    background-position: left;
+    background-repeat: repeat;
+}
+#pick{
+    background-color: white;
+    border-radius: 5px;
+    margin: 40px 60px 20px 60px;
+    padding: 10px 0px;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#count{
+    background-color: white;
+    text-align: center;
+    height: 210px;
+    padding-top: 50px;
+    margin: 0px 120px;
+    font-size: 30px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#count1{
+    margin: 30px 60px;
+}
+#drop{
+    font-size: 33px;
+    color: rgb(4, 160, 212);
+}
+#milk{
+    background-color: rgb(37, 37, 247);
+    color: white;
+    padding: 4px;
+    border-radius: 2px;
+}
+#menu{
+    display: none;
+    width: 400px;
+    padding: 30px;
+    border: 1px solid black;
+    box-shadow: 0 2px 10px grey;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+    animation: flip 0.3s ease-out 1;
+}
+@keyframes flip{
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 100%;
+    }
+}
+#item{
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    color: white;
+}
+#menu-item{
+    padding: 20px;
+    animation: fliper 1s ease-in-out 1;
+}
+@keyframes fliper{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+#img{
+    margin-top: 0px;
+    height: 330px;
+    width: 400px;
+    float: right;
+    margin-right: 40px;
+}
+#icon{
+    display: none;
+}
+#change{
+    color: green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 65px;
+}
+#div1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 0px;
+    column-gap: 10px;
+    grid-gap: 5px;
+    font-size: 20px;
+    width: 100%;
+    padding-top: 20px;
+}
+#arrow {
+    font-size: 50px;
+    float: inline-end;
+    margin-top: 330px;
+    animation: drop 0.7s ease-in-out alternate-reverse infinite;
+}
+@keyframes drop{
+    0%{
+        padding-top: 0px;
+    }
+    100%{
+        padding-top: 10px;
+    }
+}  
+section{
+    height: 100vh;
+    width: 100%;
+    animation: flow 1s ease 1;
+}
+@keyframes flow{
+    0%{
+        width: 0%;
+        opacity: 0%;
+    }
+    50%{
+        opacity: 0%;
+    }
+    100%{
+        width: 100%;
+        opacity: 100%;
+    }
+}
+#grid{
+    background-color:rgb(1, 41, 1);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+h2{
+    text-align: center;
+    background-color: gray;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+@media only screen and (max-width: 1270px) and (min-width: 901px){
+    header{
+        height: 80px;
+    }
+    body{
+        background-size: contain;
+    }
+    #number{
+        grid-template-columns: auto auto;
+        padding-top: 30vh;
+        height: 80vh;
+    }
+    #count1{
+        margin: 0px;
+    }
+    #count{
+        margin: 0px 35px;
+    }
+    #units{
+        text-align: center;
+        font-size: 20px;
+        margin: 0px 10px;
+        padding: 20px 10px;
+        display: grid;
+        grid-template-columns: auto ;
+    }
+    #icon{
+        display: block;
+        position: relative;
+        top: 25px;
+        padding-right: 25px;
+        font-size: 28px;
+        float: right;
+    }
+    #img{
+        height: 380px;
+        width: 400px;
+        float: right;
+    }
+    #text{
+        padding-top: 250px;
+    }
+    #change{
+        font-size: 55px;
+    }
+    #text1{
+        font-size: 40px;
+    }
+    #arrow{
+        font-size: 40px;
+        margin-top: 380px;
+    }
+    #share{
+        display: none;
+    }
+    #shop{
+        display: none;
+    }
+    #contact{
+        display: none;
+    }
+    #why{
+        display: none;
+    }
+    #product{
+        display: none;
+    }
+    #home{
+        display: none;
+    }
+}
+@media only screen and (max-width: 900px) and (min-width: 500px){
+    header{
+        height: 60px;
+    }
+    #icon{
+        display: block;
+        position: relative;
+        top: 18px;
+        padding-right: 30px;
+        font-size: 30px;
+        float: right;
+    }
+    #number{
+        grid-template-columns: auto;
+        padding-top: 130px;
+        height: 100vh;
+        grid-gap: 0px;
+    }
+    #count1{
+        margin: 0px;
+    }
+    #pick{
+        margin-top: 0px;
+    }
+    #count{
+        margin: 0px 30px;
+    }
+    #text{
+        padding-top: 170px;
+        text-align: center;
+    }
+    #change{
+        font-size: 55px;
+    }
+    #text1{
+        font-size: 40px;
+        text-align: center;
+        padding-left: 0%;
+    }
+    #arrow{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+    body{
+        background-size: contain;
+    }
+    #img{
+        margin-top: 150px;
+        height: 360px;
+        width: 340px;
+        float: none;
+    }
+    #share{
+        display: none;
+    }
+    #shop{
+        display: none;
+    }
+    #contact{
+        display: none;
+    }
+    #why{
+        display: none;
+    }
+    #product{
+        display: none;
+    }
+    #home{
+        display: none;
+    }
+}
+@media only screen and (max-width: 499px) and (min-width: 200px){
+    header{
+        height: 40px;
+    }
+    #icon{
+        display: block;
+        position: relative;
+        top: 8px;
+        padding-right: 25px;
+        font-size: 25px;
+        float: right;
+    }
+    #number{
+        grid-template-columns: auto;
+        padding-top: 100px;
+        height: 100vh;
+    }
+    #pick{
+        margin: 20px 5px;
+        font-size: 16px;
+    }
+    #count1{
+        margin-top: 0px;
+    }
+    #count{
+        font-size: 20px;
+        height: 180px;
+        margin: 0px 30px;
+    }
+    #arrow{
+        margin-top: 10px;
+        font-size: 30px;
+        animation: drop 0.7s ease-in-out alternate-reverse infinite;
+    }
+    @keyframes drop{
+        0%{
+            padding-top: 0px;
+        }
+        100%{
+            padding-top: 10px;
+        }
+    }  
+    body{
+        background-size: contain;
+    }
+    #text{
+        padding-top: 110px;
+    }
+    #change{
+        font-size: 45px;
+    }
+    #text1{
+        font-size: 30px;
+        text-align: center;
+        padding-left: 0%;
+    }
+    #img{
+        margin-top: 60px;
+        height: 245px;
+        width: 220px;
+        float: none;
+    }
+    #menu{
+        width: 160px;
+        padding: 10px;
+    }
+    #menu-item{
+        font-size: 10px;
+        padding: 15px;
+    }
+    #share{
+        display: none;
+    }
+    #shop{
+        display: none;
+    }
+    #contact{
+        display: none;
+    }
+    #why{
+        display: none;
+    }
+    #product{
+        display: none;
+    }
+    #home{
+        display: none;
+    }
+}
+@media only screen and (max-height: 700px) and (min-height: 630px) and (max-width: 499px) and (min-width: 200px){
+    #text{
+        padding-top: 150px;
+    }
+    #img{
+        margin-top: 110px;
+        height: 240px;
+        width: 240px;
+        float: none;
+    }
+    #arrow {
+        margin-top: 10px;
+        animation: drop 0.7s ease-in-out alternate-reverse infinite;
+    }
+    @keyframes drop{
+        0%{
+            padding-top: 0px;
+        }
+        100%{
+            padding-top: 10px;
+        }
+    }  
+    #pick{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-height: 800px) and (min-height: 701px) and (max-width: 499px) and (min-width: 200px){
+    #text{
+        padding-top: 200px;
+    }
+    #change{
+        font-size: 45px;
+    }
+    #text1{
+        font-size: 30px;
+    }
+    #arrow{
+        font-size: 30px;
+        margin-top: 10px;
+        animation: drop 0.7s ease-in-out alternate-reverse infinite;
+    }
+    #img{
+        margin-top: 100px;
+        height: 280px;
+        width: 300px;
+        float: none;
+    }
+    @keyframes drop{
+        0%{
+            padding-top: 0px;
+        }
+        100%{
+            padding-top: 10px;
+        }
+    }  
+}
+@media only screen and (max-height: 854px) and (min-height: 801px) and (max-width: 499px) and (min-width: 200px){
+    #text{
+        padding-top: 160px;
+    }
+    #change{
+        font-size: 45px;
+    }
+    #text1{
+        font-size: 30px;
+    }
+    #arrow{
+        font-size: 30px;
+        margin-top: 10px;
+        animation: drop 0.7s ease-in-out alternate-reverse infinite;
+    }
+    #img{
+        margin-top: 200px;
+        height: 300px;
+        width: 300px;
+        float: none;
+    }
+    @keyframes drop{
+        0%{
+            padding-top: 0px;
+        }
+        100%{
+            padding-top: 10px;
+        }
+    }  
+}
+@media only screen and (max-height: 320px) and (max-width: 499px) and (min-width: 200px){
+    #img{
+        margin-top: 0px;
+        height: 170px;
+        width: 150px;
+        float: none;
+    }
+    #text{
+        padding-top: 40px;
+    }
+    #text1{
+        font-size: 20px;
+    }
+    #count{
+        font-size: 20px;
+        height: 100px;
+        margin: 0px 10px;
+        padding: 0px;
+    }
+}
